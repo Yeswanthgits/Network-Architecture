@@ -14,13 +14,13 @@ The main benifit of using this rather than 2 tier is scaling and optimization of
 
 `1. Presentation Layer: `
 
-    It works same as 2 tier architecture(if you are a beginner, refer to this https://github.com/Yeswanthgits/Network-Architecture/blob/main/2%20Tier%20Architecture/README.md )
+    It works same as 2 tier architecture(if you are a beginner, refer to this `https://github.com/Yeswanthgits/Network-Architecture/blob/main/2%20Tier%20Architecture/README.md` )
 
     This layer is developed using HTML, CSS, Javascript, Next.js, React and many other front end tools. 
 
     The main responsibilities of this layer is
-        +Displaying data to the user.
-        +Performs basic data validation.
+        -Displaying data to the user.
+        *Performs basic data validation.
         +Often handles some client-side logic for enhanced user experience.
 
 ---
@@ -33,10 +33,10 @@ The main benifit of using this rather than 2 tier is scaling and optimization of
 
     The main responsibilities of this layer is
         
-        +Handles complex business rules.
-        +Manages application workflows.
+        -Handles complex business rules.
+        *Manages application workflows.
         +Coordinates interactions between the presentation and data tiers.
-        +Often includes security measures to protect sensitive data.
+        -Often includes security measures to protect sensitive data.
 
 ---
 
@@ -47,8 +47,8 @@ The main benifit of using this rather than 2 tier is scaling and optimization of
     It can be developed using Relational and Non-Relational Database Management Systems like MySQL, MongoDB, PostgreSql and many more depending upon the use case of the application.
 
      The main responsibilities of this layer is
-        +Provides data storage and retrieval services.
-        +Ensures data integrity and consistency.
+        -Provides data storage and retrieval services.
+        *Ensures data integrity and consistency.
         +Optimizes data access performance.
 
 If the user base is estimated to increase in the future of the application, then this must be a correct choice to implement in your application architechting process.
